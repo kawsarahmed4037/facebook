@@ -1,0 +1,288 @@
+*{margin:0;padding:0}
+
+
+header{
+		background:#3A5795;
+		padding:10px 0;
+		overflow:hidden;
+		font-family:tahoma;
+}
+.header-area{
+		width:90%;
+		margin:0 auto;
+	  	
+	
+}
+.logo{	margin-top:20px;
+		width:30%;
+		float:left;
+}
+
+.loging-area{
+		overflow:hidden;
+		width:70%;
+}
+.loging-area label, 
+.loging-area input{
+	display:block;
+}
+.loging-area label{
+		font-size:14px;
+		color:#fff;
+		
+}
+.loging-area input{
+		margin:5px 0;
+		border:1px solid #1D2A5B;
+		padding:4px;
+}
+.loging-area input[type="checkbox"]{
+		float:left;
+		margin:5px 5px 0 0;
+		
+}
+.user-area label:last-child{
+		overflow:hidden;
+		margin:4px 0 0 0;
+		font-size:12px;
+		color:#838498;
+		display:inline-block;/****************/
+		cursor:pointer;
+}
+.user-area {
+		float:left;
+		margin-right:15px;
+}
+.password-area{
+		overflow:hidden;
+		float:left;
+		margin-right:15px;
+}
+.password-area a{
+		color:#838498;
+		font-size:12px;
+		text-decoration:none;
+}
+.password-area a:hover{
+		text-decoration:underline;
+}
+.submit-area{
+		overflow:hidden;
+		float:right;
+}
+.submit-area input{
+		padding:3px;
+		background:#365899;
+		cursor:pointer;
+		color:#fff;
+		margin-top:23px;
+}
+.loging-area form{
+	
+		float:right;
+	
+}
+
+.signup-area a{
+	font-size:12px;
+		color:#3B5998;
+	
+}
+
+.signup-area{
+		background: linear-gradient(#FFFFFF, #D4D9E9);
+	font-family: tahoma, arial;
+}
+.signup-area h2, h3{
+	
+	font-weight:normal;
+}
+.container{
+	margin:auto;
+	width:90%;
+	
+}
+
+
+
+.left-area{
+		float:left;
+		width:45%;
+		margin-right:15%;
+}
+.right-area{
+		overflow:hidden;
+		width:40%;
+		
+	
+}
+.right-area a{
+	text-decoration:none;
+}
+.right-area a:hover{
+	text-decoration:underline;
+}
+.mobile-area{
+		overflow:hidden;
+		margin:40px 0 0 0px;
+		background-repeat:no-repeat;
+		background-position:bottom;
+		height:300px;
+		background-image:url("img/background.png")
+}
+.mobile-image{
+		float:left;
+		margin:15px 20px 0 30px ;
+	
+}
+.mobile-area .mobile-text p{
+		color:#4D5051;
+}
+.mobile-area .mobile-text a{
+		text-decoration:none;
+		color:#2E2E32;
+		border:1px solid #4B4E4E;
+		float:right;
+		margin-top:40px;
+		font-size:12px;
+		font-weight:bold;
+		padding:2px;
+}
+
+.signup-area h1{
+		font-size:36px;
+		font-weight:normal;
+		font-family: 'Lato', sans-serif;
+		font-weight:600;
+		margin-top:20px;
+}
+.signup-area h2{
+		font-weight:400;
+		font-size:20px;
+		font-family: 'Open Sans', sans-serif;
+}
+.signup-area form{
+		margin-top:20px;
+	
+}
+.signup-area input[type="text"],
+.signup-area input[type="password"] {
+		display:block;
+		width:100%;
+		box-sizing:border-box;
+		border-radius:4px;
+		border:1px solid #9197AD;
+		color:#666666;
+		padding:10px;
+		font-size:18px;
+		margin-bottom:10px;
+}
+.signup-area input[type="text"]:nth-child(1) {
+		width:48%;
+		float:left;
+		margin-right:4%;
+	
+}
+
+.signup-area input[type="text"]:nth-child(2) {
+		width:48%;
+		overflow:hidden;
+}
+.birthday{
+		overflow:hidden;
+}
+.birthday select{
+		padding:5px;
+		border:1px solid #DDEDFC;
+		float:left;
+		
+		
+}
+.birthday select:last-of-type{
+		margin-right:20px;
+	
+}
+.right-area h2{
+	margin-bottom:10px;
+	margin-top:20px;
+}
+.birthday a{
+		font-size:12px;
+		color:#3B5998;
+		display:block;
+}
+
+.gender { 
+	margin:20px;
+}
+.gender label{
+		cursor:pointer;
+	
+}
+.gender input:last-of-type{
+		margin-left:15px;
+	
+}
+.right-area input[type="submit"]{
+		background:linear-gradient(#82C36B,#5A8C46);
+		font-size:18px;
+		font-weight:bold;
+		color:#ffffff;
+		padding:7px 65px;
+		border:1px solid #3B6E22;
+		border-radius:5px;
+		margin:20px 0 15px 0;
+}
+.signup-area hr{
+		border-top:0;
+		border-left:0;
+		border-right:0;
+		border-bottom:1px solid #666666;
+}
+.signup-area .page{
+		font-size:14px;
+		margin:10px 0 30px 0;
+	
+}
+.signup-area .page a{
+		font-size:14px;
+}
+.footer-area{
+		font-family:tahoma;
+		font-size:12px;
+		margin:30px
+}
+.footer-area ul{
+		list-style:none;
+}
+.footer-area ul li{
+		float:left;
+		margin:0 15px 0 0;
+		overflow:hidden;
+	
+}
+
+.footer-top, .footer-bottom{
+	
+		overflow:hidden;/*************************/
+}
+.footer-area ul li a{
+		text-decoration:none;
+		color:#365899;
+		
+	
+}
+.footer-bottom ul{
+	
+	width:75%;
+}
+.footer-bottom ul li{
+	
+	width:10%;/************************/
+	margin-bottom:10px;
+}
+.copyright{
+		margin-top:10px;
+	
+	
+}

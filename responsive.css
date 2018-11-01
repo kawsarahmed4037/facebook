@@ -1,0 +1,49 @@
+@media all and (max-width:768px) {
+		.logo{
+			float:none;
+			width:100%;
+			text-align:center;
+margin-bottom:20px;			
+		}
+	
+	.loging-area{
+		width:100%;
+	}
+	.loging-area form{
+		width:390px;
+		margin:auto;
+		float:none;
+		
+	}
+	.left-area{
+		float:none;
+		width:100%;
+	}
+	.right-area{
+		width:100%;
+		
+	}
+}
+@media all and (max-width:480px) {
+		
+	
+	.loging-area form{
+		width:auto;
+		
+	}
+	.user-area{
+		float:none;
+	}
+	.password-area{
+		float:none;
+		
+	}
+	.submit-area{
+		float:none;
+	}
+	.loging-area input[type="text"],
+	.loging-area input[type="password"]{
+		width:100%;
+		
+	}
+}
